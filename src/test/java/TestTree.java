@@ -64,10 +64,95 @@ public class TestTree
 	
 	public void run()
 	{
-		
+		//now what? Think of all the input and outputs here...
 		check(Strings.IS_IT_ALIVE);
         say("Y");
-        //now what? Think of all the input and outputs here...
+        
+        check("Is it a Duck?");
+        say("Y");
+        
+        check(Strings.I_WIN);
+        
+        check(Strings.PLAY_AGAIN);
+        say("Y");
+        
+        check(Strings.IS_IT_ALIVE);
+        say("N");
+        
+        check("Is it a Rock?");
+        say("N");
+        
+        check(Strings.WHAT_IS_THE_ANSWER);
+        say("Chair");
+        
+        check("Please provide me a question that will differentiate between a Rock and a Chair");
+        say("Does it have four legs?");
+        
+        check("Answering yes to Does it have four legs? means Chair?");
+        say("Y");
+        
+        check(Strings.THANKS);
+        
+        check(Strings.PLAY_AGAIN);
+        say("Y");
+        
+        check(Strings.IS_IT_ALIVE);
+        say("Y");
+        
+        check("Is it a Duck?");
+        say("N");
+        
+        check(Strings.WHAT_IS_THE_ANSWER);
+        say("LadyBug");
+        
+        check("Please provide me a question that will differentiate between a Duck and a LadyBug");
+        say("Does it have Black spots?");
+        
+        check("Answering yes to Does it have Black spots? means LadyBug?");
+        say("Y");
+        
+        check(Strings.THANKS);
+        
+        check(Strings.PLAY_AGAIN);
+        say("Y");
+        
+        check(Strings.IS_IT_ALIVE);
+        say("Y");
+        
+        check("Does it have Black spots?");
+        say("N");
+        
+        check(Strings.IS_IT_A + Strings.DUCK);
+        say("Y");
+        
+        check(Strings.I_WIN);
+        
+        check(Strings.PLAY_AGAIN);
+        say("Y");
+        
+        check(Strings.IS_IT_ALIVE);
+        say("Y");
+        
+        check("Does it have Black spots?");
+        say("N");
+        
+        check("Is it a Duck?");
+        say("N");
+        
+        check(Strings.WHAT_IS_THE_ANSWER);
+        say("Dog");
+        
+        check("Please provide me a question that will differentiate between a Duck and a Dog");
+        say("Is it a Mans Bestfriend?");
+        
+        check("Answering yes to is it a Mans Bestfriend? means Dog?");
+        say("Y");
+        
+        check(Strings.PLAY_AGAIN);
+        say("N");
+        
+        
+      
 		
 
         
